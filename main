@@ -1,0 +1,33 @@
+rgba(0, 255, 0, 0.61);
+        border: 0;
+    }
+
+    33% {
+        color: #00f;
+    }
+@keyframes square-explosion {
+    0% {
+    
+        width: 0;
+        height: 0;
+        color:
+    100% {
+        width: 10rem;
+        height: 10rem;
+        border: 5rem solid  #f8c;
+        font-size: 48px;
+    }
+}
+
+div.original-Square {
+    position: fixed;
+    width: 10rem;
+    height: 10rem;
+
+    border: 5rem solid rgb(134, 99, 27);
+    border-radius: 10rem;
+
+    animation: square-explosion  2s infinite alternate-reverse;
+font-family: cursive;
+font-weight: 700;
+}
